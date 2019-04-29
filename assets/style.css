@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  /* Keep border and padding inside the box measurement */
+  
+  /*** 3.0 TEXT & FONTS ***/
+  @import url('https://fonts.googleapis.com/css?family=Anton');
+  
+  .h1{
+      font-family: 'Anton', sans-serif;
+      font-size: 10vw;
+      text-align: left;
+      margin: 0px;
+      padding-left: 20px;
+      color: #FFF; /* white */
+  }
+  h3{
+      color: blue;
+  }
+  
+  
+  /*** 4.0 PAGE & TOP CONSTRUCTION ***/
+  html, body {
+    height: 100%;
+  }
+  body{
+      background-color: #282828; /* Graphite */
+  }
+  
+  .page-header{
+      margin-top: 0px;
+      margin-bottom: 30px;
+      border: 0px;
+      padding-top: 20px;
+      padding-left: 10px;
+      height: 200px;
+     
+  }
+  
+  /*** 5.0 PANELS ***/
+  thead{
+      font-weight: bold;
+  }
+  
+  
+    
+    .jumbotron {
+        background: white;
+        opacity: .80;
+        font-family: fantasy;
+    
+    }
+  
